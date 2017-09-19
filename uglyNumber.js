@@ -1,31 +1,31 @@
 'use strict'
 
 function maxDivides(number, divisible) {
-  while(number % divisible == 0) {
+  while (number % divisible == 0) {
     number = number / divisible;
   }
-  return numbers;
+  return number;
 }
 
 function isUgly(numberUgly) {
-  numberUgly = maxDivide(numberUgly, 2);
-  numberUgly = maxDivide(numberUgly, 3);
-  numberUgly = maxDivide(numberUgly, 5);
+  numberUgly = maxDivides(numberUgly, 2);
+  numberUgly = maxDivides(numberUgly, 3);
+  numberUgly = maxDivides(numberUgly, 5);
 
-  return (numbers = 1) ? true : false;
+  return (numberUgly == 1) ? true : false;
 }
 
 function getUglyNo(input) {
   let i = 1;
-  let countUglyNumber == 1; // ugly number count
+  let countUglyNumber = 1; // ugly number count
 
-  while(input > countUglyNumber) {
+  while (input > countUglyNumber) {
     i++;
-    if(isUgly(i) == 1) {
-      counts++;
+    if (isUgly(i) == 1) {
+      countUglyNumber++;
     }
-    return i;
   }
+  return i;
 }
 
 //driver code
