@@ -4,28 +4,28 @@ function maxDivides(number, divisible) {
   while(number % divisible == 0) {
     number = number / divisible;
   }
-  return numbers;
+  return number; //kelebihan s
 }
 
 function isUgly(numberUgly) {
-  numberUgly = maxDivide(numberUgly, 2);
-  numberUgly = maxDivide(numberUgly, 3);
-  numberUgly = maxDivide(numberUgly, 5);
+  numberUgly = maxDivides(numberUgly, 2); //kurang s
+  numberUgly = maxDivides(numberUgly, 3); //kurang s
+  numberUgly = maxDivides(numberUgly, 5); //kurang s
 
-  return (numbers = 1) ? true : false;
+  return (numberUgly == 1) ? true : false; //number ganti dengan "numberUgly" dan ditambah '=' equals
 }
 
 function getUglyNo(input) {
   let i = 1;
-  let countUglyNumber == 1; // ugly number count
+  let countUglyNumber = 1; // ugly number count //kelebihan 1
 
   while(input > countUglyNumber) {
     i++;
     if(isUgly(i) == 1) {
-      counts++;
+      countUglyNumber++; //counts diganti "countUglyNumber"
     }
-    return i;
   }
+  return i; //return ditaro diluar while
 }
 
 //driver code
