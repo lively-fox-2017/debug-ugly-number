@@ -1,3 +1,3 @@
 # ugly-number
 
-https://docs.google.com/a/hacktiv8.com/document/d/1frEgAZ69DKnKRmvS5akyYhUqpgNIAgcFzNz8xmS_g18/edit?usp=sharing
+https://docs.google.com/document/d/1enpaGaXBZ8KYRBv0zPs45_iZ2ttq4WcRZdlNUnSRlcU/edit?usp=sharing
