@@ -29,7 +29,7 @@ function getUglyNo(input) {
 }
 
 //driver code
-// console.log(getUglyNo(150)); //5832
+console.log(getUglyNo(150)); //5832
 console.log(getUglyNo(7)); //8
-// console.log(getUglyNo(10)); //12
-// console.log(getUglyNo(15)); //24
+console.log(getUglyNo(10)); //12
+console.log(getUglyNo(15)); //24
