@@ -1,10 +1,10 @@
 'use strict'
 
-function maxDivides(number, divisible) {
-  while(number % divisible == 0) {
+function maxDivide(number, divisible) { //replace maxDivides to maxDivide
+  while (number % divisible == 0) {
     number = number / divisible;
   }
-  return numbers;
+  return number;//replace numbers to number
 }
 
 function isUgly(numberUgly) {
@@ -12,20 +12,20 @@ function isUgly(numberUgly) {
   numberUgly = maxDivide(numberUgly, 3);
   numberUgly = maxDivide(numberUgly, 5);
 
-  return (numbers = 1) ? true : false;
+  return (numberUgly == 1) ? true : false; // replace numbers to numberUgly
 }
 
 function getUglyNo(input) {
   let i = 1;
-  let countUglyNumber == 1; // ugly number count
+  let countUglyNumber = 1; // ugly number count // remove ==
 
-  while(input > countUglyNumber) {
+  while (input > countUglyNumber) {
     i++;
-    if(isUgly(i) == 1) {
-      counts++;
+    if (isUgly(i) == 1) {
+      countUglyNumber++; // replace counts to countUglyNumber
     }
-    return i;
   }
+  return i; // remove return to out while
 }
 
 //driver code
